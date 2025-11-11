@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-0%2F100-red?style=for-the-badge)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-1%2F100-orange?style=for-the-badge)
 
 > My journey to master Python in 100 days - Learning in public! 🚀
 
@@ -12,7 +12,7 @@
 
 I'm Afolabi Daniel Folajomi, a Chemical Engineering student at UNILAG, committing to code for 100 consecutive days. This repository documents my entire learning journey from Python basics to building real-world applications.
 
-**Start Date:** [Will be filled on Day 1]  
+**Start Date:** [Nov 11 2025]  
 **Goal:** Master Python for Full Stack Development, Data Analysis, and Engineering Applications
 
 ---
@@ -74,7 +74,7 @@ This challenge follows the **Udemy 100 Days of Code - Python** curriculum, cover
 
 | Day | Date | Topic | Project | Status |
 |-----|------|-------|---------|--------|
-| 001 | TBD | Python Basics | Band Name Generator | ⏳ Pending |
+| 001 | Nov 11, 2024 | Python Basics | Band Name Generator | ✅ Complete |
 | 002 | TBD | Data Types | Tip Calculator | ⏳ Pending |
 | 003 | TBD | Control Flow | Treasure Island | ⏳ Pending |
 | ... | ... | ... | ... | ... |
@@ -114,11 +114,11 @@ Projects will be showcased here as I complete them:
 
 ## 📊 Stats & Insights
 
-- **Total Days Completed:** 0/100
+- **Total Days Completed:** 1/100
 - **Total Lines of Code:** 0
-- **Projects Completed:** 0
+- **Projects Completed:** 1
 - **Concepts Mastered:** 0
-- **Current Streak:** 0 days 🔥
+- **Current Streak:** 1 days 🔥
 
 ---
 
