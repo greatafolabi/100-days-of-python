@@ -229,8 +229,8 @@ The Tip Calculator was more complex than Day 1's Band Name Generator, but that's
 
 ## 🔗 Social Media Posts
 
-- **Twitter:** [Add your Day 2 tweet link here]
-- **LinkedIn:** [Add your Day 2 LinkedIn post link here]
+- **x:** https://x.com/AfolabiDan61289/status/1988508804007289117?s=20
+- **LinkedIn:**(https://www.linkedin.com/posts/afolabi-daniel-32959431a_100daysofcode-python-100daysofcode-activity-7394275462958448640-c0NF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDjUdEBNr2Vd-yFYxhqsRgeHBbEPntkN4Y)
 
 ---
 
