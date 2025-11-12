@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-1%2F100-orange?style=for-the-badge)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-2%2F100-orange?style=for-the-badge)
 
 > My journey to master Python in 100 days - Learning in public! 🚀
 
@@ -75,10 +75,8 @@ This challenge follows the **Udemy 100 Days of Code - Python** curriculum, cover
 | Day | Date | Topic | Project | Status |
 |-----|------|-------|---------|--------|
 | 001 | Nov 11, 2024 | Python Basics | Band Name Generator | ✅ Complete |
-| 002 | TBD | Data Types | Tip Calculator | ⏳ Pending |
+| 002 | Nov 12, 2024 | Data Types | Tip Calculator | ✅ Complete |
 | 003 | TBD | Control Flow | Treasure Island | ⏳ Pending |
-| ... | ... | ... | ... | ... |
-
 *Table will be updated daily*
 
 ---
@@ -114,11 +112,11 @@ Projects will be showcased here as I complete them:
 
 ## 📊 Stats & Insights
 
-- **Total Days Completed:** 1/100
-- **Total Lines of Code:** 0
-- **Projects Completed:** 1
-- **Concepts Mastered:** 0
-- **Current Streak:** 1 days 🔥
+-  **Total Days Completed:** 2/100
+- **Total Lines of Code:** ~30
+- **Projects Completed:** 2
+- **Concepts Mastered:** 15+
+- **Current Streak:** 2 days 🔥🔥
 
 ---
 
@@ -163,7 +161,7 @@ Projects will be showcased here as I complete them:
 > "I, Afolabi Daniel Folajomi, commit to completing 100 days of code. I will code for at least 1 hour every day and share my progress publicly. I will not break the chain!"
 
 **Signature:** _Afolabi Daniel_  
-**Date:** [To be filled on Day 1]
+**Date:**Nov 11 2025
 
 ---
 
