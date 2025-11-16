@@ -327,8 +327,8 @@ Day 3 was INTENSE! 🔥
 
 ## 🔗 Social Media Posts
 
-- **Twitter:** [Add your Day 3 tweet link here]
-- **LinkedIn:** [Add your Day 3 LinkedIn post link here]
+- **Twitter:**https://x.com/AfolabiDan61289/status/1989077823110414819?s=20)
+- **LinkedIn:**https://www.linkedin.com/posts/afolabi-daniel-32959431a_100daysofcode-python-100daysofcode-ugcPost-7395805331819483137-ghnZ 
 
 ---
 
