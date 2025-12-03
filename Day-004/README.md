@@ -421,8 +421,8 @@ I'm building MOMENTUM! Each day introduces new tools that make programs more pow
 
 ## 🔗 Social Media Posts
 
-- **Twitter:** [Add your Day 4 tweet link here]
-- **LinkedIn:** [Add your Day 4 LinkedIn post link here]
+- **x:** https://x.com/AfolabiDan61289/status/1996104769870451055?s=20
+- **LinkedIn:**https://www.linkedin.com/posts/afolabi-daniel-32959431a_100daysofcode-python-100daysofcode-activity-7401871635005239296-kWCJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDjUdEBNr2Vd-yFYxhqsRgeHBbEPntkN4Y)
 
 ---
 
