@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-2%2F100-orange?style=for-the-badge)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-4%2F100-orange?style=for-the-badge)
 
 > My journey to master Python in 100 days - Learning in public! 🚀
 
@@ -76,8 +76,9 @@ This challenge follows the **Udemy 100 Days of Code - Python** curriculum, cover
 |-----|------|-------|---------|--------|
 | 001 | Nov 11, 2024 | Python Basics | Band Name Generator | ✅ Complete |
 | 002 | Nov 12, 2024 | Data Types | Tip Calculator | ✅ Complete |
-| 003 | TBD | Control Flow | Treasure Island | ⏳ Pending |
-*Table will be updated daily*
+| 003 | Nov 13, 2024 | Control Flow | Pizza Delivery, Treasure Island | ✅ Complete |
+| 004 | Nov 14, 2024 | Randomization & Lists | Coin Toss, Bill Splitter, Rock Paper Scissors | ✅ Complete |
+| 005 | TBD | Python Loops | TBD | ⏳ Pending |
 
 ---
 
@@ -97,11 +98,16 @@ Each day includes:
 Projects will be showcased here as I complete them:
 
 ### Beginner Projects (Days 1-30)
-- 🎵 Band Name Generator
-- 💰 Tip Calculator
-- 🏝️ Treasure Island Game
+- 🎵 Day 1: Band Name Generator
+- 💰 Day 2: Tip Calculator
+- 🍕 Day 3: Pizza Delivery App
+- 🏝️ Day 3: Treasure Island Game
+- 🪙 Day 4: Coin Toss
+- 💸 Day 4: Bill Splitter
+- ✊ Day 4: Rock Paper Scissors Game
 - *More coming soon...*
 
+- 
 ### Intermediate Projects (Days 31-60)
 - *Coming soon...*
 
@@ -112,12 +118,12 @@ Projects will be showcased here as I complete them:
 
 ## 📊 Stats & Insights
 
--  **Total Days Completed:** 2/100
-- **Total Lines of Code:** ~30
-- **Projects Completed:** 2
-- **Concepts Mastered:** 15+
-- **Current Streak:** 2 days 🔥🔥
-
+- - **Total Days Completed:** 4/100
+- **Total Lines of Code:** ~250+
+- **Projects Completed:** 7
+- **Concepts Mastered:** 25+
+- **Current Streak:** 4 days 🔥🔥🔥🔥
+- **Company Engagements:** 1 (Andela) 🤝
 ---
 
 ## 🛠️ Tools & Technologies
@@ -177,12 +183,13 @@ This challenge isn't just about learning Python - it's about:
 
 ---
 
-## 📌 Day 1 Starts Soon!
+📌 Day 4/100 - Journey in Progress!
 
-Follow along as I transform from a Chemical Engineering student into a Full Stack Developer, one day at a time.
+Transforming from Chemical Engineering student to Full Stack Developer, one day at a time.
 
-**Let's code! 🚀**
+**4 days ✅ | 7 projects 🚀 | 96 days to go! 💪**
 
+The streak continues! 🔥
 ---
 
 ![Visitor Count](https://profile-counter.glitch.me/greatafolabi-100days/count.svg)
