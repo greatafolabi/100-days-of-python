@@ -1,0 +1,71 @@
+# Day 7: Hangman Game 🎮
+
+## What I Learned Today
+- **While loops for game flow**: Keeping the game running until win/lose condition
+- **String building**: Constructing the display letter by letter
+- **List indexing**: Accessing ASCII art based on lives remaining
+- **Game state management**: Using boolean flags and tracking correct letters
+- **User input validation**: Converting input to lowercase for consistency
+
+## The Challenge
+Build a complete Hangman game where:
+- Player guesses letters one at a time
+- Wrong guesses reduce lives (6 total)
+- ASCII art shows hangman progress
+- Game ends on win (all letters guessed) or lose (0 lives)
+
+## Key Concepts Applied
+1. **While Loop Game Flow**
+```python
+   while not game_over:
+       # Game continues until win or lose
+```
+
+2. **String Building with Conditionals**
+```python
+   for letter in chosen_word:
+       if letter == guess:
+           display += letter
+       elif letter in correct_letter:
+           display += letter
+       else:
+           display += "_"
+```
+
+3. **Lives System**
+```python
+   if guess not in chosen_word:
+       lives -= 1
+       if lives == 0:
+           game_over = True
+```
+
+4. **ASCII Art Stages**
+   - Used list indexing to show hangman progress
+   - `HANGMAN_STAGES[lives]` displays current stage
+
+## What I Built
+A fully functional Hangman game with:
+- Random word selection
+- Life tracking system
+- Visual ASCII art feedback
+- Win/lose conditions
+- Letter tracking to avoid duplicates
+
+## Challenges Faced
+- **Indentation errors**: Had to move game logic inside the while loop
+- **Boolean vs String**: Fixed `"true"` to `True`
+- **Variable naming**: Used `HANGMAN_STAGES` instead of wrong string reference
+
+## Code Files
+- `hangman.py` - Complete hangman game
+- `notes.md` - Quick reference for concepts
+
+## What's Next?
+Day 8: Functions and parameters - learning to break code into reusable pieces!
+
+---
+
+**Day 7/100 Complete** ✅  
+**Streak: 7 days** 🔥  
+**Project: Hangman Game** 🎮
