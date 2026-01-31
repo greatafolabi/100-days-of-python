@@ -1,0 +1,84 @@
+# Day 8: Functions, Parameters & Caesar Cipher 🔐
+
+## What I Learned Today
+- **Functions**: Creating reusable blocks of code with `def`
+- **Parameters vs Arguments**: Parameters are placeholders, arguments are actual values
+- **Positional Arguments**: Order matters when passing values
+- **Keyword Arguments**: Explicitly naming parameters when calling functions
+- **Function scope**: Variables inside functions vs outside
+
+## The Challenge
+Build a Caesar Cipher - a classic encryption technique that shifts letters by a fixed number to encode/decode messages.
+
+## Key Concepts Applied
+
+### 1. **Defining Functions**
+```python
+def encrypt(original_text, shift_amount):
+    # Function body
+    pass
+```
+
+### 2. **Positional Arguments**
+```python
+encrypt("hello", 5)  # Order matters: text first, shift second
+```
+
+### 3. **Keyword Arguments**
+```python
+encrypt(original_text="hello", shift_amount=5)  # Explicit naming
+```
+
+### 4. **Function Parameters**
+- Parameters: Variables in function definition
+- Arguments: Actual values passed when calling
+
+## What I Built
+A Caesar Cipher encryption/decryption program that:
+- Takes user input (message and shift number)
+- Encrypts messages by shifting letters forward
+- Decrypts messages by shifting letters backward
+- Handles wraparound (z → a)
+- Uses modulo operator for efficiency
+
+## Code Breakdown
+
+**The Algorithm:**
+```python
+def encrypt(original_text, shift_amount):
+    cipher_text = ""
+    for letter in original_text:
+        shifted_position = alphabets.index(letter) + shift_amount
+        shifted_position %= len(alphabets)  # Wraparound
+        cipher_text += alphabets[shifted_position]
+    print(f"Here is the encoded result: {cipher_text}")
+```
+
+**Key Logic:**
+- `alphabets.index(letter)` - finds current position
+- `+ shift_amount` - moves forward for encryption
+- `%= len(alphabets)` - handles wraparound (mod 26)
+- String concatenation builds final result
+
+## Challenges Faced
+- Understanding the difference between parameters and arguments
+- Implementing wraparound logic with modulo operator
+- Ensuring function calls happen OUTSIDE function definitions
+- Managing encryption vs decryption logic
+
+## Real-World Applications
+Caesar Cipher teaches:
+- Basic cryptography concepts
+- String manipulation
+- Function design patterns
+- Input validation
+- Used in real encryption as ROT13 variant
+
+## What's Next?
+Day 9: More advanced function concepts - building on today's foundation!
+
+---
+
+**Day 8/100 Complete** ✅  
+**Streak: 8 days** 🔥  
+**Project: Caesar Cipher** 🔐
