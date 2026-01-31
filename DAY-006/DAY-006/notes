@@ -1,0 +1,158 @@
+ Day 006 - Quick Notes
+
+## Topics Covered:
+- Functions (defining and calling)
+- Code blocks & indentation (deep dive)
+- While loops
+- Karel the Robot / Reeborg's World
+- Problem decomposition
+- Algorithms (right-hand rule)
+
+## Functions:
+```python
+# Defining a function
+def function_name():
+    # code here
+    pass
+
+# Calling a function
+function_name()
+```
+
+## Why Functions?
+- **DRY:** Don't Repeat Yourself
+- Reusability
+- Organization
+- Easier debugging
+- Break complex problems into pieces
+
+## Indentation Rules:
+- 4 spaces OR 1 tab per level
+- Consistent throughout code
+- Defines code blocks
+- Wrong indentation = error
+- Python reads whitespace!
+
+## While Loops:
+```python
+while condition:
+    # code runs while condition is True
+    # must update condition eventually!
+```
+
+## For vs While:
+- **For:** Known iterations (for i in range(10))
+- **While:** Condition-based (while not at_goal())
+
+## Karel/Reeborg Functions:
+```python
+move()              # Move forward
+turn_left()         # Turn left 90°
+put_beeper()        # Place object
+pick_beeper()       # Pick up object
+front_is_clear()    # Returns True if can move
+right_is_clear()    # Check right side
+at_goal()           # Check if at destination
+```
+
+## Custom Functions Created:
+```python
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+```
+
+## Problem Decomposition:
+1. Break big problem into small pieces
+2. Solve each piece (create function)
+3. Combine pieces into solution
+4. Test and debug
+
+## Right-Hand Rule (Maze Solving):
+```
+Algorithm:
+1. If right is clear → turn right, move
+2. Else if front is clear → move
+3. Else → turn left
+4. Repeat until goal reached
+```
+
+## Key Insights:
+- 3 left turns = 1 right turn!
+- Check conditions before acting
+- Algorithms = systematic rules
+- Functions build on functions
+- While loops for unknown iterations
+- Visual feedback helps learning
+
+## Common Patterns:
+
+### Function Pattern:
+```python
+def custom_action():
+    # series of basic actions
+    # combined into one reusable function
+```
+
+### Condition Check Pattern:
+```python
+if obstacle_detected():
+    avoid_obstacle()
+else:
+    continue_forward()
+```
+
+### While Loop Pattern:
+```python
+while not done():
+    check_conditions()
+    take_action()
+```
+
+## Projects Built:
+1. **Hurdles** - Jump over obstacles
+2. **Variable Hurdles** - Dynamic obstacle detection
+3. **Escaping the Maze** - Algorithm implementation
+
+## Concepts Mastered:
+✅ Defining functions
+✅ Calling functions
+✅ Code organization
+✅ While loops
+✅ Condition checking
+✅ Problem decomposition
+✅ Algorithm implementation
+✅ Visual programming (Reeborg)
+
+## Real-World Applications:
+- Code organization (functions everywhere!)
+- Robotics (Karel-like logic)
+- Game AI (pathfinding)
+- Automation (condition-based loops)
+- Problem solving (decomposition)
+
+## Important Reminders:
+- Always indent consistently
+- Make sure while loops can end
+- Check conditions before acting
+- Build complex from simple
+- Test functions individually
+- Think in small steps
+
+## Ideas for Practice:
+- Create more helper functions
+- Solve different maze types
+- Implement other algorithms
+- Build robot simulations
+- Practice decomposition on new problems
