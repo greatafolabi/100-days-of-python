@@ -1,0 +1,182 @@
+# Day 10: Functions with Outputs & Calculator Project 🧮
+
+## What I Learned Today
+- **Return statements**: Functions that give back values
+- **Multiple return values**: Returning tuples from functions
+- **Docstrings**: Documenting functions with `"""triple quotes"""`
+- **String methods**: `.title()` for proper capitalization
+- **Function design**: Building reusable, well-documented code
+- **Calculator logic**: Implementing arithmetic operations
+
+## The Challenge
+Build a fully functional **Calculator** that:
+- Performs basic operations (+, -, *, /)
+- Uses functions with return values
+- Allows continuous calculations
+- Handles user input gracefully
+
+## Key Concepts Applied
+
+### 1. **Functions with Return Values**
+```python
+def add(n1, n2):
+    return n1 + n2
+
+result = add(5, 3)  # result = 8
+```
+
+### 2. **Multiple Return Values**
+```python
+def calculate(n1, n2):
+    sum_result = n1 + n2
+    product = n1 * n2
+    return sum_result, product  # Returns tuple
+
+total, prod = calculate(5, 3)
+```
+
+### 3. **Docstrings**
+```python
+def multiply(n1, n2):
+    """
+    Multiplies two numbers together.
+    
+    Parameters:
+    n1 (float): First number
+    n2 (float): Second number
+    
+    Returns:
+    float: Product of n1 and n2
+    """
+    return n1 * n2
+```
+
+### 4. **String Title Case**
+```python
+name = "daniel afolabi"
+print(name.title())  # Output: Daniel Afolabi
+```
+
+## What I Built: Calculator
+
+A complete calculator program with:
+- **4 operations**: Add, Subtract, Multiply, Divide
+- **Function-based design**: Each operation is a function
+- **Return values**: All functions return calculated results
+- **Continuous operation**: Can keep calculating with previous result
+- **User-friendly**: Clear prompts and formatted output
+
+### Calculator Features:
+✓ Basic arithmetic operations
+✓ Continuous calculations (use previous result)
+✓ Start new calculation option
+✓ Input validation
+✓ Clean, organized code with functions
+
+## Code Architecture
+
+### Operation Functions
+```python
+def add(n1, n2):
+    """Add two numbers"""
+    return n1 + n2
+
+def subtract(n1, n2):
+    """Subtract n2 from n1"""
+    return n1 - n2
+
+def multiply(n1, n2):
+    """Multiply two numbers"""
+    return n1 * n2
+
+def divide(n1, n2):
+    """Divide n1 by n2"""
+    return n1 / n2
+```
+
+### Operations Dictionary
+```python
+operations = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide
+}
+```
+
+### Calculator Logic
+- Get first number
+- Display available operations
+- Get operation choice
+- Get second number
+- Calculate using selected operation
+- Display result
+- Ask to continue or start new
+
+## Real-World Applications
+
+**Return values are everywhere:**
+- API calls (fetch data, return response)
+- Database queries (return records)
+- Calculations (return computed values)
+- Validation functions (return True/False)
+- Data processing (return transformed data)
+
+**Docstrings matter for:**
+- Team collaboration
+- Future you (understanding old code!)
+- Auto-generated documentation
+- IDE hints and autocomplete
+
+## Key Learnings
+
+### Return vs Print
+```python
+# Print: shows output, doesn't give value
+def greet_print(name):
+    print(f"Hello {name}")
+
+# Return: gives value back to use elsewhere
+def greet_return(name):
+    return f"Hello {name}"
+
+# Usage difference
+greet_print("Daniel")  # Prints, but can't store
+message = greet_return("Daniel")  # Can store and use
+```
+
+### Functions Storing in Dictionaries
+```python
+# You can store functions as dictionary values!
+operations = {
+    "+": add,
+    "-": subtract
+}
+
+# Call function from dictionary
+result = operations["+"](5, 3)  # Calls add(5, 3)
+```
+
+## Challenges Overcome
+- Understanding return vs print
+- Storing functions in dictionaries
+- Continuous calculation logic (using previous result)
+- Handling division by zero
+- Creating clean user flow
+
+## Code Quality Improvements
+- Added docstrings to all functions
+- Used meaningful variable names
+- Organized operations in dictionary
+- Implemented clear user prompts
+- Handled edge cases
+
+## What's Next?
+Day 11: Building on function mastery with more complex applications!
+
+---
+
+**Day 10/100 Complete** ✅  
+**Streak: 10 days** 🔥  
+**Project: Calculator** 🧮  
+**Milestone: DOUBLE DIGITS!** 🎉
